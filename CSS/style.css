@@ -1,0 +1,124 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+#top-pages-content
+{
+    background-color: rgba(255, 255, 255, 0.641);
+}/* Form styling */
+#top {
+    width: 100%; 
+    text-align: center; 
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+#Primary {
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #f9f9f9;}
+
+#image-and-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#displayed-image {
+    max-width: 100%; 
+    height: auto; 
+}
+ 
+@media only screen and (max-width: 300px) {
+    #top {
+        max-width: 100%;
+    }
+}
+/* Our Package styling */
+#Middle-of-Pages-Content {
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+#Middle-of-Pages-Content h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#Middle-of-Pages-Content ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#Middle-of-Pages-Content li {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* Call to Action styling */
+#call {
+    background-color: #f9f9f9;
+    color: rgb(0, 0, 0);
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#call h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#call p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+#call a {
+    display: inline-block;
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+#call a:hover {
+    background-color: #e0e0e0;
+}
+
+
